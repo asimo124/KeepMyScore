@@ -1,0 +1,65 @@
+
+.main-content {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/assets/img/keep_my_score_bkg2.png");
+  position: relative;
+}
+
+
+
+.top-score, .bottom-score {
+  height: 32vh;
+  width: 94vw;
+  border: 5px solid white;
+  border-radius: 10px;
+  margin-left: 3vw;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 22vh;
+  position: relative;
+}
+
+.player-text-holder {
+  position: absolute;
+  top: -5px;
+  width: 91vw;
+  font-size: 6vh;
+  color: white;
+  text-align: center;
+}
+
+.top-score {
+
+}
+
+.bottom-score {
+  margin-top: 1vh
+}
+
+.top-buttons-holder, .bottom-buttons-holder {
+  margin-top: 1vh;
+  width: 94vw;
+  height: 16vh;
+  margin-left: 3vw;
+}
+
+.minus-holder, .plus-holder {
+
+  color: white;
+  text-align: center;
+  font-size: 8vh;
+  border: 5px solid white;
+  border-radius: 10px;
+  width: 50%;
+  float: left;
+}
+
+.minus-holder {
+
+}
+
+.plus-holder {
+
+}
