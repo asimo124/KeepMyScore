@@ -6,10 +6,23 @@
   position: relative;
 }
 
+.reset-container {
+  margin-right: 3vw;
+  height: 4vh;
+  width: 94vw;
+  float: right;
+  color: white;
+  text-align: right;
+  font-size: 20px;
+  position: relative;
+}
 
+.reset-container a:visited, .reset-container a:active, .reset-container a:link, .reset-container a:hover {
+  color: white;
+}
 
 .top-score, .bottom-score {
-  height: 27vh;
+  height: 25vh;
   width: 94vw;
   border: 5px solid white;
   border-radius: 10px;
@@ -17,7 +30,7 @@
   display: inline-block;
   color: white;
   text-align: center;
-  font-size: 22vh;
+  font-size: 19vh;
   position: relative;
 }
 
@@ -25,7 +38,7 @@
   position: absolute;
   top: -5px;
   width: 91vw;
-  font-size: 6vh;
+  font-size: 5vh;
   color: white;
   text-align: center;
 }

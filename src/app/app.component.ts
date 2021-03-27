@@ -30,4 +30,9 @@ export class AppComponent {
       this.theirScore -= 1;
     }
   }
+
+  resetScore() {
+    this.yourScore = 0;
+    this.theirScore = 0;
+  }
 }
