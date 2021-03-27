@@ -16,7 +16,9 @@ export class AppComponent {
   }
 
   decreaseYourScore() {
-    this.yourScore -= 1;
+    if (this.yourScore > 0) {
+      this.yourScore -= 1;
+    }
   }
 
   increaseTheirScore() {
@@ -24,6 +26,8 @@ export class AppComponent {
   }
 
   decreaseTheirScore() {
-    this.theirScore -= 1;
+    if (this.theirScore > 0) {
+      this.theirScore -= 1;
+    }
   }
 }
